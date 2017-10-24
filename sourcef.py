@@ -6,6 +6,7 @@ import numpy as np
 np.seterr(divide='ignore', invalid='ignore')
 sess = tf.Session()
 
+#Convolution layer
 
 class conv(object):
 	def __init__(self,n_channels,kernel_size=3,stride=1,padding='SAME'):
@@ -14,15 +15,21 @@ class conv(object):
 		self.s=stride
 		self.pad=padding
 
+#Pooling layer
+
 class pool(object):
 	def __init__(self,window_size=2,stride=None):
 		self.k=window_size
 		self.s=stride
 
+#Dense layer
+
 class dense(object):
 	def __init__(self,n_neurons):
 		self.n_neurons=n_neurons
 
+#Dropout layer
+		
 class drop(object):
 	def __init__(self):
 		pass
