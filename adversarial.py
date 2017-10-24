@@ -39,7 +39,7 @@ class adversarial(object):
 #x is the input datasets labeled above
 #Classsize is the total number of labels in the dataset
 #Architecture is a set of neuron layers defined in sourcef.py
-#Activation is the activation function of dense layers, you can choose 'relu','tanh' or 'sigmoid'
+#Activation is the activation function for some layers, you can choose 'relu','tanh' or 'sigmoid'
 #Batchsize is the total number of examples processed at the same time to create adversarial examples
 #Reshape is the tensor shape you want to reshape the input data as
 #Softmax is the softmax layer type, you can choose 'regular' or 'sparse'
