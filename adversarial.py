@@ -1,3 +1,12 @@
+'''
+!/usr/bin/env python
+-*- coding: utf-8 -*-
+**************************************
+@Time    : 2018/9/27 1:41
+@Author  : Jiaxu Zou
+@File    : adversarial.c 
+**************************************
+'''
 import pickle
 import tensorflow as tf 
 import numpy as np
