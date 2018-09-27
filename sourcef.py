@@ -1,3 +1,12 @@
+'''
+!/usr/bin/env python
+-*- coding: utf-8 -*-
+**************************************
+@Time    : 2018/9/27 1:40
+@Author  : Jiaxu Zou
+@File    : sourcef.c 
+**************************************
+'''
 import pickle
 import tensorflow as tf
 import numpy as np
